@@ -153,18 +153,21 @@ try:
 # Get directory list using regex
 #--------------------------------------------------------------
 
-    print("%s[+] Scraping directory list...%s" % (GRN, RST))
+    # print("%s[+] Scraping directory list...%s" % (GRN, RST))
 
-    dr = 0
-    dirllist = open('%s_dirlist.txt' % host, 'w')
-    with readfile as file:
-        for line in file:
-            rgx = re.sub(rgx_domain, '', line)
-            if rgx:
-                dr += 1
-                dirllist.write(rgx.group()+'\n')
-            else:
-                rgx
+    # dr = 0
+    # dirllist = open('%s_dirlist.txt' % host, 'w')
+
+    # with readfile as file:
+    #     for line in file:
+    #         dr += 1
+    #         rgx = re.sub(rgx_domain, '', line)
+    #         if rgx:
+    #             dirllist.write(rgx.group()+'\n')
+    #         else:
+    #             rgx
+
+    #         dirllist.close()
 
 except KeyboardInterrupt:
     print("\nExiting")

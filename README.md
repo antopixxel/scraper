@@ -44,17 +44,23 @@ Found Directory list : xx
 
 1. Clone this repository
 
-    ```git clone https://github.com/black4t/HookURI.git```
+    ```
+    git clone https://github.com/black4t/HookURI.git
+    ```
 
 2. Install requirement python3 module using pip3.
 
-    ```pip3 install -r requirement.txt```
+    ```
+    pip3 install -r requirement.txt
+    ```
 
 3. And running the script.
 
-    ```cd HookURI```
+    ```
+    cd HookURI
 
-    ```python3 hookuri.py```
+    python3 hookuri.py
+    ```
 
 
 ### CONTRIBUTE
